@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 深紫色 -->
+    <color name="modena">#9923ad</color>
+    <!-- 淡紫色 -->
+    <color name="lavender">#ab47bc</color>
+    <!-- 灰白色 -->
+    <color name="incanus">#f5f5f5</color>
+    <!-- 黑灰色 -->
+    <color name="charcoal">#333333</color>
+    <!-- 淡灰色 -->
+    <color name="light_gray">#666666</color>
+    <color name="unfocused">#E0E0E0</color>
+
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+
+</resources>

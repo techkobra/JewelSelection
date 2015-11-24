@@ -1,0 +1,980 @@
+﻿{
+"failed_code": null,
+"failed_msg": null,
+"menu": [
+{
+"description": "",
+"id": -1,
+"image_url": "",
+"menu_items": [
+{
+"description": "",
+"id": 520787,
+"logo_url": "",
+"name": "1p",
+"option_sets": null,
+"order_count": 21,
+"price": 0.7,
+"unit": "份"
+}
+],
+"name": "特价菜品",
+"recommended": 0
+},
+{
+"description": "",
+"id": 40830,
+"image_url": "",
+"menu_items": [
+{
+"description": "",
+"id": 871050,
+"logo_url": "",
+"name": "2p",
+"option_sets": null,
+"order_count": 21,
+"price": 0.1,
+"unit": "份"
+},
+{
+"description": "",
+"id": 895404,
+"logo_url": "",
+"name": "水电费",
+"option_sets": null,
+"order_count": 10,
+"price": 0.1,
+"unit": "份"
+},
+{
+"description": "",
+"id": 883045,
+"logo_url": "",
+"name": "3p",
+"option_sets": null,
+"order_count": 30,
+"price": 0.2,
+"unit": "份"
+},
+{
+"description": "",
+"id": 883058,
+"logo_url": "",
+"name": "4p",
+"option_sets": null,
+"order_count": 20,
+"price": 0.6,
+"unit": "份"
+},
+{
+"description": "233333333",
+"id": 843605,
+"logo_url": "",
+"name": "tokyo-hot",
+"option_sets": null,
+"order_count": 15,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "搞不好呵呵",
+"id": 521569,
+"logo_url": "",
+"name": "app测试2",
+"option_sets": null,
+"order_count": 11,
+"price": 10,
+"unit": "份"
+}
+],
+"name": "测试分类",
+"recommended": 0
+},
+{
+"description": "",
+"id": 33434,
+"image_url": "",
+"menu_items": [
+{
+"description": "",
+"id": 424616,
+"logo_url": "",
+"name": "酸辣土豆丝盖饭",
+"option_sets": null,
+"order_count": 2,
+"price": 5.5,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424617,
+"logo_url": "",
+"name": "焖扁豆盖饭",
+"option_sets": null,
+"order_count": 7,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424618,
+"logo_url": "",
+"name": "小炒千张盖饭",
+"option_sets": null,
+"order_count": 5,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424619,
+"logo_url": "",
+"name": "小炒茄子盖饭",
+"option_sets": null,
+"order_count": 5,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424940,
+"logo_url": "",
+"name": "酸辣土豆片盖饭",
+"option_sets": null,
+"order_count": 6,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424941,
+"logo_url": "",
+"name": "尖椒土豆丝盖饭",
+"option_sets": null,
+"order_count": 2,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424942,
+"logo_url": "",
+"name": "尖椒土豆片盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424943,
+"logo_url": "",
+"name": "醋溜土豆丝盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424944,
+"logo_url": "",
+"name": "醋溜土豆片盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 10,
+"unit": "份"
+},
+{
+"description": "",
+"id": 443119,
+"logo_url": "",
+"name": "肉末豆腐盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424620,
+"logo_url": "",
+"name": "木须肉盖饭",
+"option_sets": null,
+"order_count": 1,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424621,
+"logo_url": "",
+"name": "红烧豆腐盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424622,
+"logo_url": "",
+"name": "家常豆腐盖饭",
+"option_sets": null,
+"order_count": 1,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424624,
+"logo_url": "",
+"name": "肉沫豆腐盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424625,
+"logo_url": "",
+"name": "肉沫酸豆角盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424626,
+"logo_url": "",
+"name": "鱼香茄子盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424627,
+"logo_url": "",
+"name": "清炒四季盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424628,
+"logo_url": "",
+"name": "虎皮青椒盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424629,
+"logo_url": "",
+"name": "酸辣藕片盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424630,
+"logo_url": "",
+"name": "麻辣豆腐盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424631,
+"logo_url": "",
+"name": "小菇土豆片盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424632,
+"logo_url": "",
+"name": "韭菜炒鸡蛋盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424633,
+"logo_url": "",
+"name": "红烧茄子盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424634,
+"logo_url": "",
+"name": "干煸豆角盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 12,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424635,
+"logo_url": "",
+"name": "豆角炒肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424636,
+"logo_url": "",
+"name": "尖椒炒肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424637,
+"logo_url": "",
+"name": "剁椒炒蛋盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424638,
+"logo_url": "",
+"name": "花菜炒肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424639,
+"logo_url": "",
+"name": "蒜苔肉丝盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424640,
+"logo_url": "",
+"name": "西红柿鸡蛋盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424641,
+"logo_url": "",
+"name": "老干妈炒蛋盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424642,
+"logo_url": "",
+"name": "青笋肉丝盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424645,
+"logo_url": "",
+"name": "金针菇炒肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424646,
+"logo_url": "",
+"name": "平菇肉片盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424647,
+"logo_url": "",
+"name": "红萝卜肉丝盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424658,
+"logo_url": "",
+"name": "辣子鸡丁盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424659,
+"logo_url": "",
+"name": "宫保鸡丁盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424660,
+"logo_url": "",
+"name": "鱼香肉丝盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424651,
+"logo_url": "",
+"name": "芜爆里脊肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424652,
+"logo_url": "",
+"name": "香辣肉丝盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424653,
+"logo_url": "",
+"name": "滑溜肉片盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424654,
+"logo_url": "",
+"name": "肉片烧茄子盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424655,
+"logo_url": "",
+"name": "扁豆肉片盖饭",
+"option_sets": null,
+"order_count": 1,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424649,
+"logo_url": "",
+"name": "鱼香肝尖盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 13,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424650,
+"logo_url": "",
+"name": "火爆肝尖盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 14,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424657,
+"logo_url": "",
+"name": "蒜苔鸡丁盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 14,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424661,
+"logo_url": "",
+"name": "木耳炒肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 14,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424662,
+"logo_url": "",
+"name": "五香干炒肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 14,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424663,
+"logo_url": "",
+"name": "地三鲜盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 14,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424665,
+"logo_url": "",
+"name": "溜肝尖盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 14,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424648,
+"logo_url": "",
+"name": "爆炒猪嘴肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 14,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424666,
+"logo_url": "",
+"name": "回锅腊肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424667,
+"logo_url": "",
+"name": "尖椒腊肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424668,
+"logo_url": "",
+"name": "茶树菇小炒肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424669,
+"logo_url": "",
+"name": "农家小炒肉盖饭",
+"option_sets": null,
+"order_count": 1,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424670,
+"logo_url": "",
+"name": "老干妈回锅肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424671,
+"logo_url": "",
+"name": "山椒炒鸡胗盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424672,
+"logo_url": "",
+"name": "葱爆腊肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424673,
+"logo_url": "",
+"name": "葱爆回锅肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424679,
+"logo_url": "",
+"name": "尖椒肥肠盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424683,
+"logo_url": "",
+"name": "爆炒鸡杂盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424681,
+"logo_url": "",
+"name": "尖椒肥牛盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424695,
+"logo_url": "",
+"name": "爆炒羊杂盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 15,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424682,
+"logo_url": "",
+"name": "农家红烧肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424684,
+"logo_url": "",
+"name": "干馏肥肠盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424685,
+"logo_url": "",
+"name": "葱爆鸡块盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424686,
+"logo_url": "",
+"name": "红烧排骨盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424687,
+"logo_url": "",
+"name": "红烧带鱼盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424688,
+"logo_url": "",
+"name": "爆烧鱿鱼丝盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424689,
+"logo_url": "",
+"name": "爆炒腰花盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424680,
+"logo_url": "",
+"name": "土豆烧牛肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424674,
+"logo_url": "",
+"name": "尖椒牛肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424676,
+"logo_url": "",
+"name": "爆炒牛肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424677,
+"logo_url": "",
+"name": "葱爆羊肉盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424678,
+"logo_url": "",
+"name": "尖椒羊肚盖饭",
+"option_sets": null,
+"order_count": 0,
+"price": 17,
+"unit": "份"
+}
+],
+"name": "盖浇饭",
+"recommended": 0
+},
+{
+"description": "",
+"id": 33436,
+"image_url": "",
+"menu_items": [
+{
+"description": "",
+"id": 424690,
+"logo_url": "",
+"name": "地锅土鸡含饼饭+250ML王老吉",
+"option_sets": null,
+"order_count": 0,
+"price": 24,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424692,
+"logo_url": "",
+"name": "地锅羊杂含饼饭+250ML王老吉",
+"option_sets": null,
+"order_count": 0,
+"price": 24,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424693,
+"logo_url": "",
+"name": "地锅猪排含饼饭+250ML王老吉",
+"option_sets": null,
+"order_count": 0,
+"price": 24,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424694,
+"logo_url": "",
+"name": "地锅牛腩含饼饭+250ML王老吉",
+"option_sets": null,
+"order_count": 0,
+"price": 29,
+"unit": "份"
+},
+{
+"description": "",
+"id": 424691,
+"logo_url": "",
+"name": "地锅羊排含饼饭+250ML王老吉",
+"option_sets": null,
+"order_count": 0,
+"price": 34,
+"unit": "份"
+}
+],
+"name": "特色地锅系",
+"recommended": 0
+},
+{
+"description": "",
+"id": 35621,
+"image_url": "",
+"menu_items": [
+{
+"description": "",
+"id": 454240,
+"logo_url": "",
+"name": "西红柿鸡蛋汤",
+"option_sets": null,
+"order_count": 0,
+"price": 9,
+"unit": "份"
+},
+{
+"description": "",
+"id": 454244,
+"logo_url": "",
+"name": "紫菜蛋花汤",
+"option_sets": null,
+"order_count": 0,
+"price": 9,
+"unit": "份"
+},
+{
+"description": "",
+"id": 454242,
+"logo_url": "",
+"name": "酸辣汤",
+"option_sets": null,
+"order_count": 0,
+"price": 11,
+"unit": "份"
+},
+{
+"description": "",
+"id": 454246,
+"logo_url": "",
+"name": "牛肉丸子汤",
+"option_sets": null,
+"order_count": 0,
+"price": 23,
+"unit": "份"
+}
+],
+"name": "汤羹类",
+"recommended": 0
+},
+{
+"description": "",
+"id": 68893,
+"image_url": "",
+"menu_items": [
+{
+"description": "",
+"id": 843612,
+"logo_url": "",
+"name": "饮料1",
+"option_sets": null,
+"order_count": 0,
+"price": 1,
+"unit": "份"
+}
+],
+"name": "饮料",
+"recommended": 0
+}
+]
+}

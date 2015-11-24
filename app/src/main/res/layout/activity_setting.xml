@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/modena" >
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/title_back_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:clickable="true" />
+
+        <TextView
+            style="@style/font_02"
+            android:text="设置" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:text="收货地址管理"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/tv1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="#3A4877" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:text="通知设置"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/tv2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="#3A4877" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:text="消息中心"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line3"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/tv3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="#3A4877" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:text="关于我们"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line4"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/tv4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="#3A4877" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv4"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:text="意见反馈"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line5"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/tv5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="#3A4877" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv5"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:text="支付帮助"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line6"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/tv6"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="#3A4877" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:text="检查更新"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/line7"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/tv7"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="#3A4877" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv7"
+            android:layout_alignBottom="@+id/tv7"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="当前版本V1.2.3-B321"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv8"
+            android:layout_margin="15dp"
+            android:background="#ba68c8"
+            android:clickable="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:text="退出当前账号"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

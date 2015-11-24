@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/modena" >
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/title_back_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:clickable="true" />
+
+        <TextView
+            style="@style/font_02"
+            android:text="用户登录" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <RelativeLayout
+            android:id="@+id/l_account"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/account" >
+
+            <EditText
+                android:id="@+id/username"
+                style="@style/font_01"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:hint="请输入手机号码" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/l_account"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/password" >
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/font_01"
+                android:layout_marginLeft="100dp"
+                android:background="@null"
+                android:hint="请输入密码" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/l_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/register"
+            android:clickable="true" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/l_login"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:text="忘记密码"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#C0C0C0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="第三方账号登录" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#C0C0C0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/iv_qq"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/qq" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_qq"
+                android:layout_centerHorizontal="true"
+                android:text="腾讯QQ"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wechat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/iv_wechat"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/wechat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_wechat"
+                android:layout_centerHorizontal="true"
+                android:text="微信"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/weibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/iv_weibo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/weibo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_weibo"
+                android:layout_centerHorizontal="true"
+                android:text="微博"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

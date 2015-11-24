@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/modena" >
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/title_back_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:clickable="true" />
+
+        <TextView
+            style="@style/font_02"
+            android:text="镶嵌设计" />
+
+        <ImageView
+            android:id="@+id/search"
+            style="@style/title_image_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/search" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" >
+
+            <ListView
+                android:id="@+id/side_menu_lv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@color/white"
+                android:dividerHeight="1dp" >
+            </ListView>
+        </FrameLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <ListView
+                android:id="@+id/menu_lvmenu"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:divider="@null" />
+
+            <LinearLayout
+                android:id="@+id/title_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="right|top"
+                android:background="#ff303030"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title_layout_catalog"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/unfocused"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="5dip"
+                    android:paddingTop="5dip"
+                    android:textColor="#454545" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/modena" >
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/title_back_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:clickable="true" />
+
+        <TextView
+            style="@style/font_02"
+            android:text="用户注册" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="请确保您的手机畅通，用于接收验证短信" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/l_account"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/account" >
+
+            <EditText
+                android:id="@+id/username"
+                style="@style/font_01"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:hint="请输入手机号码" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_verificationcode"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/l_account"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/iv_verificationcode"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verificationcode" />
+
+            <EditText
+                android:id="@+id/verificationcode"
+                style="@style/font_01"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="请输入验证码" />
+
+            <ImageView
+                android:id="@+id/send_verificationcode"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/verification" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_next"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/l_verificationcode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/next"
+            android:clickable="true" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

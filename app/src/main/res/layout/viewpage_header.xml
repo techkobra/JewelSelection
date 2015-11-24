@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/first_floor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="158dp"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/guidePages"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" >
+
+                <LinearLayout
+                    android:id="@+id/viewGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_floor"
+        android:layout_width="match_parent"
+        android:layout_height="117.5dp"
+        android:layout_below="@id/first_floor"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/identity"
+            style="@style/layout_style" >
+
+            <ImageView
+                style="@style/iamge_style"
+                android:background="@drawable/identity" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/identity" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/designer"
+            style="@style/layout_style" >
+
+            <ImageView
+                style="@style/iamge_style"
+                android:background="@drawable/designer" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/designer" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/former"
+            style="@style/layout_style">
+
+            <ImageView
+                style="@style/iamge_style"
+                android:background="@drawable/former" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/former" />
+        </RelativeLayout>
+        <!-- 第二层 -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third_floor"
+        android:layout_width="match_parent"
+        android:layout_height="117.5dp"
+        android:layout_below="@id/second_floor"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/retread"
+            style="@style/layout_style" >
+
+            <ImageView
+                style="@style/iamge_style"
+                android:background="@drawable/retread" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/retread" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seek"
+            style="@style/layout_style" >
+
+            <ImageView
+                style="@style/iamge_style"
+                android:background="@drawable/seek" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/seek" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/spot"
+            style="@style/layout_style" >
+
+            <ImageView
+                style="@style/iamge_style"
+                android:background="@drawable/spot" />
+
+            <TextView
+                style="@style/text_style"
+                android:text="@string/spot" />
+        </RelativeLayout>
+        <!-- 第三层 -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourth_floor"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@id/third_floor"
+        android:background="@color/lavender"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/index_setting" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="商品分类"
+            android:textColor="@color/white" />
+        
+        <TextView
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="更多"
+            android:textColor="@color/white" />
+        
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/go" />
+    </LinearLayout>
+
+</RelativeLayout>

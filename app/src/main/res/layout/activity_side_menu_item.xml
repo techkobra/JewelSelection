@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/unfocused" >
+    <TextView android:id="@+id/section_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView android:id="@+id/menu_tag_tv"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#336598"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>

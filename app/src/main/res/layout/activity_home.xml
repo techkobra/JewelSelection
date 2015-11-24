@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <!-- 主页 -->
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/modena" >
+
+        <ImageView
+            android:id="@+id/personal"
+            style="@style/title_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/login"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/sousuo4" />
+
+        <ImageView
+            android:id="@+id/cart"
+            style="@style/title_image_style"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/cart"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <com.huewu.pla.lib.MultiColumnPullToRefreshListView
+        android:id="@+id/pullimagelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title" />
+
+</RelativeLayout>
